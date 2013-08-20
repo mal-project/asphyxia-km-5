@@ -1,0 +1,16 @@
+//----------------------------------------------------------------------
+#define     IDI_ICON  100
+
+#define     IDD_DLG   200
+#define     IDD_INF   201
+
+#define     IDE_INF   403
+#define     IDE_REG   404
+
+#define     IDB_CLSINF 413
+
+#define     IDR_INF   500
+#define     IDR_REL   501
+#define		IDR_SRC   502
+
+//----------------------------------------------------------------------

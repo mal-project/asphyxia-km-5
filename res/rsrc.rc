@@ -1,0 +1,22 @@
+//----------------------------------------------------------------------
+#include    "resource.h"
+#include    "rsrc.id"
+
+//----------------------------------------------------------------------
+LANGUAGE    0, 0
+
+//----------------------------------------------------------------------
+IDI_ICON     ICON    DISCARDABLE     "res/icon.ico"
+IDR_INF      RCDATA  DISCARDABLE     "res/info.txt"
+
+//----------------------------------------------------------------------
+IDD_DLG     DIALOGEX    0, 0, 170, 190
+STYLE   DS_CENTER
+FONT    8, "Tahoma"
+{
+	CONTROL     "", IDE_INF, STATIC, ES_READONLY, 5, 5, 160, 100
+	CONTROL     "", IDE_REG, EDIT, ES_READONLY | ES_CENTER | WS_BORDER | ES_MULTILINE, 5, 110, 155, 25
+	CONTROL     "&Close", IDB_CLSINF, BUTTON, WS_TABSTOP | BS_CENTER | BS_FLAT | BS_DEFPUSHBUTTON, 8, 145, 150, 9
+}
+
+//----------------------------------------------------------------------
